@@ -1,0 +1,52 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Presentation Title styles */
+.Titre.Presentation {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333; /* Adjust color as needed */
+}
+
+/* Paragraph styles */
+.paragraphe1, .paragraph2, .paragraph3, .paragraph4, .paragraph5, .paragraph6 {
+    margin-top: 20px;
+}
+
+.paragraphe1 p, .paragraph2 p, .paragraph3 p, .paragraph4 p, .paragraph5 p, .paragraph6 p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #555; /* Adjust color as needed */
+}
+
+/* Additional styles for specific elements */
+.paragraph2 ul {
+    list-style-type: none;
+}
+
+.paragraph2 li {
+    margin-bottom: 10px;
+}
+
+/* Add more styles as needed based on specific elements */
